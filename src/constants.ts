@@ -24,15 +24,13 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0xAd518E06364d3391fddbD13CEB63aFfF852d244b'
-// https://blockscout.com/astar/address/0xA9473608514457b4bF083f9045fA63ae5810A03E/contracts
-
+export const FACTORY_ADDRESS = '0x3e01891B309c29E441783F5A2C8CB7833D9b78ff'
 export const FACTORY_ADDRESS_MAP = {
   [ChainId.MAINNET]: FACTORY_ADDRESS,
   [ChainId.TESTNET]: '0x6725f303b657a9451d8ba641348b6761a6cc7a17'
 }
 
-export const INIT_CODE_HASH='0xeec62f1ff80e89799270b899c20f4d15ac937d8dfae75f489baa5bbdcb5be1c4';
+export const INIT_CODE_HASH='0x41a918e57964f53251e429f1afb2ef3fdc93cf84bf406ca69a1fad4ad2b30fb4';
 export const INIT_CODE_HASH_MAP = {
   [ChainId.MAINNET]: INIT_CODE_HASH,
   [ChainId.TESTNET]: '0xd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66'
