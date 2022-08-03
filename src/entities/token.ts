@@ -68,20 +68,18 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 export const WETH = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
-    '0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720', // arthswap 
-    // '0xEcC867DE9F5090F55908Aaa1352950b9eed390cD', // astar exchange
+    '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7', // Trader Joe's
     18,
-    'WASTR',
-    'Wrapped ASTR',
-    'https://astar.network'
+    'WAVAX',
+    'Wrapped AVAX',
+    'https://www.avax.network/'
   ),
   [ChainId.TESTNET]: new Token(
     ChainId.TESTNET,
-    // TODO: update
-    '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
+    '0x1D308089a2D1Ced3f1Ce36B1FcaF815b07217be3',
     18,
-    'WSDN',
-    'Wrapped SDM',
-    'https://www.binance.org'
+    'WAVAX',
+    'Wrapped AVAX',
+    'https://www.avax.network/'
   )
 }
