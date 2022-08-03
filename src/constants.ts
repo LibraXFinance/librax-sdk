@@ -7,7 +7,7 @@ export enum ChainId {
   // MAINNET = 56,
   MAINNET = 43114,
   // SHIDEN = 336,
-  TESTNET = 336,
+  TESTNET = 43113,
   // FTM = 250,
   // BSC = 56,
 
