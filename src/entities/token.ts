@@ -80,6 +80,6 @@ export const WETH = {
     18,
     'WAVAX',
     'Wrapped AVAX',
-    'https://www.avax.network/'
+    'https://www.avax.network'
   )
 }
